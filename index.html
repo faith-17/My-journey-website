@@ -6,62 +6,53 @@
 <meta name="keyword" content="software developers career journey"/>
 <meta http-equiv="author" content="Agbodike Ifechukwu Faith"/>
 <meta http-equiv="content-language" content="en-US"/>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 <title>My journey as a software developer-Agbodike Ifechukwu Faith</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <style>
-        .logo{
-         display: block;
-         margin-right: auto;
-         width: 120px;
-        }
-
-       table{
-       border-collapse: collapse;
-       width: 100%;
-       border: 2px solid black;
-        }
-
-       th, td {
-        border: 1px solid black;
-        padding: 10px;
-        text-align: left;
-        }
-
-       .qualifications {
-        border: 2px solid black ;
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
-        }
-
-       body {
-        color: black ;
-        padding: 15px;
-        line-height: 1.6;
-        }
-
-       footer{
-        text-align: center;
-        }
-
-        .center-heading{
-            text-align: center;
-            text-decoration:underline;
-            h1{
-                font-size: 2rem;
-            }
-        }
-    </style>
+    
 <body>
-    <div class="container">
-    <img src="images/ifescode-logo.jpeg" class="logo">
-</div>
-    <h1 id="top">My Journey To Becoming A Full-stack Software Developer </h1>
+
+    <nav class="navbar navbar-default" id="nav-bar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   <div> <img src="images/icode.jpeg" class="navbar-brand" id="logo-img"></a></div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="collapsable-nav">
+      <ul class="nav navbar-nav"  id="nav-list">
+        <li class="activ"><a href="#Welcome">welcome</a></li>
+<li><a href="#About Me">About</a></li>
+        <li><a href="#Why I Chose Software Development">why...</a></li>
+        <li><a href="#My Story Of Resilience">my story</a></li>
+        <li><a href="#Skills I Am Learning">skills</a></li>
+ <li><a href="#My Vision">Vision</a></li>
+ <li><a href="#Message To Young People">Message...</a></li>
+ <li><a href="#My Promise"> my promise</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
     <section>
-<ul>
-    <!-- link to every secton of the page-->
-     <li><a href="#welcome">welcome</a></li>
+<!--<ul>
+
+     <li><a href="#Welcome">welcome</a></li>
      <li><a href="#About Me">About Me</a></li>
      <li><a href="#Why I Chose Software Development">Why I Chose Software Development</a></li>
      <li><a href="#My Story Of Resilience">My Story Of Resilience</a></li>
@@ -69,8 +60,11 @@
      <li><a href="#My Vision">My Vision</a></li>
      <li><a href="#Message To Young People">Message To Young People</a></li>
      <li><a href="#My Promise">My Promise</a></li>
-</ul>
+</ul>-->
+
+<h1 id="title">my journey to becoming a full-stack software developer</h1>
     </section>
+    <div class="page-content">
     <secton id="Welcome">
         <h2>Welcome:</h2>
         <p>Hello, my name is Agbodike Ifechukwu Faith. I am a student, a writer, and a future software developer. This website reflects my journey as a full-stack software developer. My journey as a developer never began as an easy path; every great achievement begins with a single step. The step I have taken is stepping into technology to learn how it has solved problems and brought solutions that have greatly made a positive impact on the world.
@@ -85,6 +79,7 @@
         Met my first set of friends that helped explore my social life; we bonded through love and care while exploring. In my fifth year in secondary school, I was able to get my certificate of NBA basketball through their encouragement to participate. In essence, growth also needs communication and association with the right   people. Explore, try new things, visit places, don't limit yourself to stories in movies–experience it. Beyond coding, I enjoy learning new things, solving problems, and challenging myself to grow. I understand that success requires patience, consistency, and resilience, and I am committed to developing these qualities as I progress  in my career.</p>
         <h3>My Educational Qualifications</h3>
         <div class="qualifications">
+            <fieldset>
         <ol>
         <li>SCHOOL ATTENDED: Government Secoundary School Nyanya,Abuja</li>
        <li>YEAR: 2019-2025</li>
@@ -94,6 +89,7 @@
         <li>CERTIFICATE:First School Leaving Certificate</li>
         <li><a href="https://coursera.org/share/b5b1f334ca37f4c5d9c96fc925ea2223"> coursera certificate</a></li>
         </ol>
+        </fieldset>
         </div>
     </p>
         <section id="Why I Chose Software Development">
@@ -207,13 +203,15 @@
                                 <li>I will continue building</li>
                                 <p>this website represents the beginning of my journey, not the end of it.<br> thank you for visiting and being part of my story.</p>
                                 <p>
-                                    <a href="#top"> back to top</a>
+    <a href="#top">back to top</a>
                                 </p>
                             </ul>
+
+                            
                             <h3 class="center-heading">
                                 Feedback on this web page: 
                             </h3>
-                            <form>
+                            
                             <form>
                                 Did you get inspired by ths article?<br>
                              Yes:
@@ -221,18 +219,51 @@
                              No:
                                <input type="radio" name="yesorno" value=""><br>
                                <br>
+                               
                              comments:<br>
-                                <textarea rows="20" cols="60"></textarea><br>
-                                <input type="submit" value="submit">
-                            </form>
+                                <textarea class="form-control" rows="10"></textarea>
+                                <input type="submit" value="submit"></div>
+                               <!-- <textarea rows="10%" cols="50%"></textarea><br>
+                                <input type="submit" value="submit"></div>
+                            </form>-->
                             <br>
-                            <br>
+                        </div>
 
-                    <footer>
-                        agbodikeifechukwufaith@gmail.com<br>
-                        &copy;2026 Ife'sCode. All rights Reserved<br>
-                    </footer>
+<footer>
+    <div class="panel-footer">
+        <div class="container">
+  <div class="row">
+    <section id="summary" class="col-sm-4"><span>SUMMARY</span><br>
+        This website shares my journey as a develope, highlightting my growth, resilience and passion for continuous learning.
+        <hr class="visible-xs">
+    </section>
+
+
+    <section id="contact" class="col-sm-4"><span>CONTACT</span><br>
+        Email:agbodikeifechukwufaith@gmail.com<br>
+        GitHub:<a href="https://github.com/faith-17" target="_blank">faith-17</a>
+        <hr class="visible-xs">
+    </section>
+
+
+    <section id="copywrite" class="col-sm-4"><span>ABOUT</span><br>
+        ISPIRE. CODE. CREATE.<br>
+        Last updated: july 2026<br>
+        &copy;2026 iCode. All Rights Reserved<br>
+        <hr class="visible-xs">
+    </section>
+
+    </div>
+    </div>
+    </div>
+    </footer>
+
+
                 </div>
+                 <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>  

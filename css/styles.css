@@ -1,0 +1,160 @@
+#nav-bar{
+         background-color:white ;
+         margin: 0;
+         border-width: 2;
+         min-height: 30px;
+         border-color: rgb(5, 5, 5);
+}
+
+#logo-img{
+          background: ur('../images/ifescode-logo.jpeg') no-repeat center;
+          width: 100px;
+          height: 100px;
+          float: left;
+          background-size: contain;
+          padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a  {
+                                        color: black;
+                                    }
+
+#nav-list{
+          font-weight: 600;
+          font-size: 1.5rem;
+          color: black;
+          padding-top: 20px;
+          
+}
+
+#nav-list a:hover,a:active{
+                          text-decoration: none;
+                          color: black;
+                          background-color: rgb(114, 36, 240);
+
+}
+
+#title{
+       color: black;
+       font-size: 3em;
+       text-transform: capitalize;
+       margin-top: 5%;
+       margin-bottom: 3%;
+       text-shadow: 1px 1px 1px purple;
+       text-align: center;
+}
+
+.navbar-toggle{
+               background-color: rgb(225, 225, 240);
+               box-shadow: 1px 1px 1px purple;
+               border: 1px solid black;
+               margin-top: 50px;
+}
+.navbar-default.navbar-toggle{
+          background-color: black;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus{background-color: brown;}
+
+
+       table{
+             border-collapse: collapse;
+             width: 100%;
+             border: 1px solid black;
+        }
+
+       th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+        }
+
+       qualifications {
+        border: 2px solid black ;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        }
+
+       body {
+        color: black ;
+        padding: px;
+        line-height: 1.6;
+        margin-top
+        }
+
+       footer{
+        text-align: center;
+        }
+
+        .center-heading{
+            text-align: center;
+            text-decoration:underline;
+        }
+textarea. form-control{
+    width: 80%;
+    max-width: 500px;
+}
+
+a:focus{
+    outline: 1px solid rgb(146, 25, 146);
+}
+ .panel-footer{
+    margin-top: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 0px;
+    background-color: #222;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+
+ }
+
+ .container{ 
+    padding-right: 5px;
+    padding-left: 5px;
+ }
+
+ #summary > span, #contact > span, #copywrite > span{
+    font-size: 1.3em;
+ }
+
+ body h2,h2{
+           text-shadow: 1px 1px 1px purple; 
+ }
+
+ .page-content{
+               padding: 10px;
+ }
+
+/* extral small devices e.g phone */
+ @media (max-width:767px) {
+         #title{
+            font-size: 1.8em;
+         }
+         body h2,h3{
+                  font-size: 1.5em;
+         }
+         .panel-footer{
+                   padding-top: 1;
+                   padding-bottom: 0;
+         }
+ }
+
+       /*small devices  eg tablets*/
+ @media (min-width:1306px){
+#nav-list{
+   margin-right: right 40px;
+   font-size: 1.8em;         
+}
+ }
+
+ @media (min-width:996px) and (max-width:1136px) {
+    #nav-list{
+        font-size:1.5em ;
+    }
+ }
