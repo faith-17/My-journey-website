@@ -1,60 +1,308 @@
-#nav-bar{
-         background-color:white ;
-         margin: 0;
-         border-width: 2;
-         min-height: 30px;
-         border-color: rgb(5, 5, 5);
+#header-nav{
+            border: 0;
+            border-radius: 0;
+            background-color:#222 ;
+            margin-bottom: 1px;
 }
 
-#logo-img{
-          background: ur('../images/ifescode-logo.jpeg') no-repeat center;
-          width: 100px;
-          height: 100px;
-          float: left;
+#logo-img{background: url('../images/iCode.svg') no-repeat center;
+          width: 70px;
+          height: 50px;
           background-size: contain;
           padding: 0;
+          flex-shrink: 0;
+          margin-left: 0;
 }
 
-.navbar-default .navbar-nav > li > a  {
-                                        color: black;
-                                    }
 
-#nav-list{
-          font-weight: 600;
-          font-size: 1.5rem;
-          color: black;
-          padding-top: 20px;
-          
+.navbar-nav >li>a{
+   padding-right: 42px;
+   padding-left: 42px;
+   padding-bottom: 15px;
+   padding-top: 15px;
 }
 
 #nav-list a:hover,a:active{
                           text-decoration: none;
-                          color: black;
-                          background-color: rgb(114, 36, 240);
-
+                          color: grey;
+                          font-weight: 500;
 }
 
-#title{
-       color: black;
-       font-size: 3em;
-       text-transform: capitalize;
-       margin-top: 5%;
-       margin-bottom: 3%;
-       text-shadow: 1px 1px 1px purple;
-       text-align: center;
+
+.navbar-default .navbar-nav >li>a{
+                                  color: white;
 }
 
-.navbar-toggle{
+.navbar-header .navbar-toggle{
                background-color: rgb(225, 225, 240);
-               box-shadow: 1px 1px 1px purple;
+               box-shadow: 2px 1px 4px purple;
                border: 1px solid black;
-               margin-top: 50px;
+               margin-top: 10px;
+               margin-right: 0;
+               padding-right: 8px;
+               padding-left: 8px;
 }
-.navbar-default.navbar-toggle{
-          background-color: black;
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus{background-color: wheat;}
+.navbar-default .navbar-toggle .icon-bar{background-color:  black;}
+
+                    /*hero section begins here */
+
+.hero{
+      position: relative;
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
 }
-.navbar-toggle:hover,
-.navbar-toggle:focus{background-color: brown;}
+
+.hero img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+}
+.overlay{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.6)
+}
+.hero-content{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 90%;
+              text-align: center;
+              color: white;
+}
+.hero-content h1{
+                 font-size: 3.8em;
+                 font-weight: bolder;
+                 text-transform: capitalize;
+}
+#btn1{
+      background-color: orange;
+      margin: 0;
+      border: 1px;
+      padding: 6px, 6px, 6px, 6px;
+ }
+#btn1 span{color: white;
+        text-align: center;
+}
+
+                           /*welcome section starts here */
+.text-box1, 
+.image-box1 {
+             height: 450px;
+             overflow: hidden;
+}
+
+.image-box1 img {
+                 width: 100%;
+                 height: 100%;
+                 object-fit: cover;
+}
+
+#welcome-section{
+                 background-color: blu;
+                 margin-top: 5px;
+                 margin-bottom: 5px;
+}
+
+                         /*about section start here */
+ .text-box2,
+ .image-box2 {
+              height: 650px;
+              overflow: hidden;
+ }
+ 
+.image-box2 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+}
+
+#about-section{
+               background-color:yello;
+               margin-top: px;
+               margin-bottom: 5px;
+
+}
+                            /*bootstrap 3 grid layer */
+ #welcome-section .row,
+ #about-section .row{margin-left: 0;
+                     margin-right: 0;    
+ }
+
+ #welcome-section .col-sm-6,
+ #about-section .col-sm-6{
+                         padding-left: 0;
+                         padding-right: 0;
+ }
+
+ .text-box2 p, h2, h3{padding-left: 20px;}
+
+                               /*why section starts here */
+#why-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#why-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#why-section .text-box3,
+#why-section .image-box3 {
+              height: 650px;
+              overflow: hidden;
+ }
+
+ #why-section .image-box3 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#why-section{background-color: gree;}
+
+                               /* story section starts here*/
+
+#story-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#story-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#story-section .text-box4,
+#story-section .image-box4 {
+              height: 750px;
+              overflow: hidden;
+ }
+
+ #story-section .image-box4 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#story-section{background-color: orang;}
+.text-box4 p, h2, h3{padding-left: 20px;}
+
+                       /*skills section starts here */
+
+#skills-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#skills-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#skills-section .text-box5,
+#skills-section .image-box5 {
+              height: 700px;
+              overflow: hidden;
+ }
+
+ #skills-section .image-box5 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#skills-section{background-color: re;}
+
+                         /*vision section starts here */
+#vision-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#vision-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#vision-section .text-box6,
+#vision-section .image-box6 {
+              height: 300px;
+              overflow: hidden;
+ }
+
+ #vision-section .image-box6 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#vision-section{background-color: purpl;}
+.text-box6 p, h2, h3{padding-left: 20px;}
+
+                      /*message starts here*/
+
+#message-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#message-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#message-section .text-box7,
+#message-section .image-box7 {
+              height: 300px;
+              overflow: hidden;
+ }
+
+ #message-section .image-box7 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#message-section{background-color: brow;}
+
+                     /*promise section starts here*/
+
+#promise-section .row{margin-left: 0;
+                  margin-right: 0;
+}
+
+#promise-section .col-sm-6{
+                      padding-left: 0;
+                      padding-right: 0; 
+}
+
+#promise-section .text-box8,
+#promise-section .image-box8 {
+              height: 400px;
+              overflow: hidden;
+ }
+
+ #promise-section .image-box8 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+ }
+
+#promise-section{ background-color: gre;}
+.text-box8 p, h2 {padding-left: 20px;}
+
+#btn2{
+      margin-top: 5px;
+      margin-left: 60px;
+      border: 0;
+}
+form{margin-left: 15px;}
+
 
 
        table{
@@ -78,7 +326,7 @@
 
        body {
         color: black ;
-        padding: px;
+        padding:
         line-height: 1.6;
         margin-top
         }
@@ -90,6 +338,9 @@
         .center-heading{
             text-align: center;
             text-decoration:underline;
+            text-transform: capitalize;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
         }
 textarea. form-control{
     width: 80%;
@@ -128,33 +379,243 @@ a:focus{
  }
 
  .page-content{
-               padding: 10px;
+               padding: 15px;
  }
 
-/* extral small devices e.g phone */
- @media (max-width:767px) {
-         #title{
-            font-size: 1.8em;
-         }
+                  /* extral small devices e.g phone */
+ @media (min-width: 600px) and (max-width:767px) {
          body h2,h3{
                   font-size: 1.5em;
          }
+
+.text-box1, 
+.image-box1 {
+             height: 580px;
+             overflow: hidden;
+}
+
+.text-box2,
+ .image-box2 {
+              height: 900px;
+              overflow: hidden;
+ }
+
+ #why-section .text-box3,
+#why-section .image-box3 {
+              height: 770px;
+              overflow: hidden;
+ }
+
+ #story-section .text-box4,
+#story-section .image-box4 {
+              height: 1280px;
+              overflow: hidden;
+ }
+
+ #skills-section .text-box5,
+#skills-section .image-box5 {
+              height: 790px;
+              overflow: hidden;
+ }
+
+ #vision-section .text-box6,
+#vision-section .image-box6 {
+              height: 450px;
+              overflow: hidden;
+ }
+ 
+#message-section .text-box7,
+#message-section .image-box7 {
+              height: 335px;
+              overflow: hidden;
+ }
+
+ #promise-section .text-box8,
+#promise-section .image-box8 {
+              height: 430px;
+              overflow: hidden;
+ }
+ body{line-height:normal;}
+
          .panel-footer{
                    padding-top: 1;
                    padding-bottom: 0;
          }
- }
+         .navbar-header{width: 100%;}
+         .navbar-toggle{margin-right: 15px;}
+      }
 
-       /*small devices  eg tablets*/
- @media (min-width:1306px){
-#nav-list{
-   margin-right: right 40px;
-   font-size: 1.8em;         
+@media (min-width:400px) and (max-width:599px){
+   .text-box1, 
+.image-box1 {
+             height: 770px;
+             overflow: hidden;
 }
+
+.text-box2,
+ .image-box2 {
+              height: 1230px;
+              overflow: hidden;
  }
 
- @media (min-width:996px) and (max-width:1136px) {
-    #nav-list{
-        font-size:1.5em ;
-    }
+ #why-section .text-box3,
+#why-section .image-box3 {
+              height: 1020px;
+              overflow: hidden;
+ }
+
+ #story-section .text-box4,
+#story-section .image-box4 {
+              height: 1790px;
+              overflow: hidden;
+ }
+
+ #skills-section .text-box5,
+#skills-section .image-box5 {
+              height: 890px;
+              overflow: hidden;
+ }
+
+ #vision-section .text-box6,
+#vision-section .image-box6 {
+              height: 610px;
+              overflow: hidden;
+ }
+ 
+#message-section .text-box7,
+#message-section .image-box7 {
+              height: 460px;
+              overflow: hidden;
+ }
+
+ #promise-section .text-box8,
+#promise-section .image-box8 {
+              height: 580px;
+              overflow: hidden;
+ }
+ body{line-height:normal; font-size: 1.3em;}
+ body h2,h2{
+           text-shadow: 1px 1px 1px purple; 
+           font-size: 1.5em;
+ }
+
+ }
+
+ @media(max-width: 399px) {
+   .text-box1, 
+.image-box1 {
+             height: 640px;
+             overflow: hidden;
+}
+
+.text-box2,
+ .image-box2 {
+              height: 1100px;
+              overflow: hidden;
+ }
+
+ #why-section .text-box3,
+#why-section .image-box3 {
+              height: 900px;
+              overflow: hidden;
+ }
+
+ #story-section .text-box4,
+#story-section .image-box4 {
+              height: 1590px;
+              overflow: hidden;
+ }
+
+ #skills-section .text-box5,
+#skills-section .image-box5 {
+              height: 790px;
+              overflow: hidden;
+ }
+
+ #vision-section .text-box6,
+#vision-section .image-box6 {
+              height: 550px;
+              overflow: hidden;
+ }
+ 
+#message-section .text-box7,
+#message-section .image-box7 {
+              height: 390px;
+              overflow: hidden;
+ }
+
+ #promise-section .text-box8,
+#promise-section .image-box8 {
+              height: 530px;
+              overflow: hidden;
+ }
+ body{line-height:normal; font-size: 1.1em;}
+ body h2,h3{
+           text-shadow: 1px 1px 1px purple; 
+           font-size: 1.3em;
+ }
+ }
+
+ @media(min-width: 768px) and (max-width:1136px) {
+   .navbar-nav >li>a{
+   padding-right: 42px;
+   padding-left: 22px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+
+ body{line-height:normal; font-size: 1.3em;}
+ body h2,h3{
+           text-shadow: 1px 1px 1px purple; 
+           font-size: 1.5em;
+ }
+
+.text-box1, 
+.image-box1 {
+             height: 400px;
+             overflow: hidden;
+}
+
+.text-box2,
+ .image-box2 {
+              height: 600px;
+              overflow: hidden;
+ }
+
+ #why-section .text-box3,
+#why-section .image-box3 {
+              height: 550px;
+              overflow: hidden;
+ }
+
+ #story-section .text-box4,
+#story-section .image-box4 {
+              height: 830px;
+              overflow: hidden;
+ }
+
+ #skills-section .text-box5,
+#skills-section .image-box5 {
+              height: 590px;
+              overflow: hidden;
+ }
+
+ #vision-section .text-box6,
+#vision-section .image-box6 {
+              height: 310px;
+              overflow: hidden;
+ }
+ 
+#message-section .text-box7,
+#message-section .image-box7 {
+              height: 250px;
+              overflow: hidden;
+ }
+
+ #promise-section .text-box8,
+#promise-section .image-box8 {
+              height: 330px;
+              overflow: hidden;
+ }
+
  }
