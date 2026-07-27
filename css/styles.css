@@ -298,8 +298,9 @@
 
 #btn2{
       margin-top: 5px;
-      margin-left: 60px;
+      margin-left: 60p;
       border: 0;
+      text-align: center;
 }
 form{margin-left: 15px;}
 
@@ -317,8 +318,8 @@ form{margin-left: 15px;}
         text-align: left;
         }
 
-       qualifications {
-        border: 2px solid black ;
+       .qualifications {
+        border: 1px  black ;
         display: block;
         width: 100%;
         box-sizing: border-box;
@@ -339,8 +340,9 @@ form{margin-left: 15px;}
             text-align: center;
             text-decoration:underline;
             text-transform: capitalize;
-            font-weight: 800;
+            font-weight: 700;
             font-family: Arial, Helvetica, sans-serif;
+            padding-top: 35px;
         }
 textarea. form-control{
     width: 80%;
