@@ -6,7 +6,7 @@
 }
 
 #logo-img{background: url('../images/iCode.svg') no-repeat center;
-          width: 70px;
+          width: 50px;
           height: 50px;
           background-size: contain;
           padding: 0;
@@ -15,12 +15,15 @@
 }
 
 
-.navbar-nav >li>a{
-   padding-right: 42px;
-   padding-left: 42px;
+/*.navbar-nav >li>a{
+   padding-right: 15px;
+   padding-left: 80px;
+   font-size: 15px;
    padding-bottom: 15px;
    padding-top: 15px;
-}
+}*/
+
+
 
 #nav-list a:hover,a:active{
                           text-decoration: none;
@@ -48,14 +51,12 @@
 .navbar-default .navbar-toggle .icon-bar{background-color:  black;}
 
                     /*hero section begins here */
-
 .hero{
       position: relative;
       width: 100%;
       height: 500px;
       overflow: hidden;
 }
-
 .hero img{
           width: 100%;
           height: 100%;
@@ -83,20 +84,39 @@
                  font-weight: bolder;
                  text-transform: capitalize;
 }
+                  /*button section starts here*/
+#btn>span{
+          font-size: 16px;
+}
+#btn1>span{
+          font-size: 16px;
+}
+#btn{
+     background-color: purple;
+     border-color: purple;
+     border-radius: 15px;
+}
 #btn1{
-      background-color: orange;
-      margin: 0;
-      border: 1px;
-      padding: 6px, 6px, 6px, 6px;
- }
-#btn1 span{color: white;
-        text-align: center;
+      background-color: transparent;
+      border-color: purple;
+      border-radius: 15px;
+}
+                   /*body content i.e the write ups */
+#body-content{
+              font-family: georgia;
+              font-size: 15.5px;
 }
 
                            /*welcome section starts here */
+   #Welcome{
+            padding-right: 15px;
+            padding-top: 60px;
+   }  
+      
+      
 .text-box1, 
 .image-box1 {
-             height: 450px;
+             height: 750px;
              overflow: hidden;
 }
 
@@ -113,9 +133,13 @@
 }
 
                          /*about section start here */
+   #About-Me{
+            padding-left: 10px;
+            padding-top: 60px;
+   }                        
  .text-box2,
  .image-box2 {
-              height: 650px;
+              height: 1050px;
               overflow: hidden;
  }
  
@@ -146,6 +170,11 @@
  .text-box2 p, h2, h3{padding-left: 20px;}
 
                                /*why section starts here */
+   #Why-Coding{
+            padding-right: 15px;
+            padding-top: 60px;
+   }  
+
 #why-section .row{margin-left: 0;
                   margin-right: 0;
 }
@@ -157,7 +186,7 @@
 
 #why-section .text-box3,
 #why-section .image-box3 {
-              height: 650px;
+              height: 1100px;
               overflow: hidden;
  }
 
@@ -170,6 +199,10 @@
 #why-section{background-color: gree;}
 
                                /* story section starts here*/
+   #My-Story{
+            padding-left: 15px;
+            padding-top: 60px;
+   }                              
 
 #story-section .row{margin-left: 0;
                   margin-right: 0;
@@ -182,7 +215,7 @@
 
 #story-section .text-box4,
 #story-section .image-box4 {
-              height: 750px;
+              height: 1430px;
               overflow: hidden;
  }
 
@@ -196,6 +229,10 @@
 .text-box4 p, h2, h3{padding-left: 20px;}
 
                        /*skills section starts here */
+#Skills{
+            padding-right: 15px;
+            padding-top: 60px;
+   }                         
 
 #skills-section .row{margin-left: 0;
                   margin-right: 0;
@@ -208,7 +245,7 @@
 
 #skills-section .text-box5,
 #skills-section .image-box5 {
-              height: 700px;
+              height: 1020px;
               overflow: hidden;
  }
 
@@ -221,6 +258,11 @@
 #skills-section{background-color: re;}
 
                          /*vision section starts here */
+#My-Vision{
+            padding-left: 15px;
+            padding-top: 60px;
+   }  
+
 #vision-section .row{margin-left: 0;
                   margin-right: 0;
 }
@@ -232,7 +274,7 @@
 
 #vision-section .text-box6,
 #vision-section .image-box6 {
-              height: 300px;
+              height: 630px;
               overflow: hidden;
  }
 
@@ -246,6 +288,10 @@
 .text-box6 p, h2, h3{padding-left: 20px;}
 
                       /*message starts here*/
+#Message{
+            padding-right: 15px;
+            padding-top: 60px;
+   }                        
 
 #message-section .row{margin-left: 0;
                   margin-right: 0;
@@ -258,7 +304,7 @@
 
 #message-section .text-box7,
 #message-section .image-box7 {
-              height: 300px;
+              height: 550px;
               overflow: hidden;
  }
 
@@ -271,6 +317,10 @@
 #message-section{background-color: brow;}
 
                      /*promise section starts here*/
+#My-Promise{
+            padding-left: 15px;
+            padding-top: 60px;
+   }                       
 
 #promise-section .row{margin-left: 0;
                   margin-right: 0;
@@ -283,7 +333,7 @@
 
 #promise-section .text-box8,
 #promise-section .image-box8 {
-              height: 400px;
+              height: 650px;
               overflow: hidden;
  }
 
@@ -293,8 +343,8 @@
                 object-fit: cover;
  }
 
-#promise-section{ background-color: gre;}
-.text-box8 p, h2 {padding-left: 20px;}
+#promise-section{ background-color: gree;}
+.text-box8 p, h2 {padding-left: 20px;}       /* All text boxes ends here*/
 
 #btn2{
       margin-top: 5px;
@@ -302,60 +352,84 @@
       border: 0;
       text-align: center;
 }
-form{margin-left: 15px;}
 
+form{
+    margin-left: 15px;
+}
 
-
-       table{
-             border-collapse: collapse;
-             width: 100%;
+.table-responsive{
+                  width: 100%;
+}
+.table{
+      width: 100%;
+      max-width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+}
+th, td{
+       word-wrap: break-word;
+       overflow-wrap: break-word;
+       border: 1px solid black!important;
+}
+/*second table */
+     /*  table{
+             border-collapse: collaps;
+             width: 10;
              border: 1px solid black;
         }
 
        th, td {
-        border: 1px solid black;
-        padding: 10px;
-        text-align: left;
-        }
+               border: 1px solid black;
+               padding: 10px;
+               text-align: left;
+        }*/
 
        .qualifications {
-        border: 1px  black ;
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
+                       border: 1px  black ;
+                       display: block;
+                       width: 100%;
+                       box-sizing: border-box;
         }
 
        body {
-        color: black ;
-        padding:
-        line-height: 1.6;
-        margin-top
+             color: black;
+             line-height: 1.5;
         }
 
        footer{
-        text-align: center;
+             text-align: center;
         }
 
         .center-heading{
             text-align: center;
             text-decoration:underline;
             text-transform: capitalize;
-            font-weight: 700;
+            font-weight: 500;
             font-family: Arial, Helvetica, sans-serif;
             padding-top: 35px;
+            font-size: 2.3em;
         }
-textarea. form-control{
-    width: 80%;
-    max-width: 500px;
+
+.comments-box{
+              width: 100%;
+              max-width: 800px;
+              margin: 0 auto;
+              text-align: left;
+}       
+.comments-box input[type="submit"] {
+                                   margin-top: 5px;
+}
+.form{
+      text-align: center;
 }
 
 a:focus{
-    outline: 1px solid rgb(146, 25, 146);
+    outline: 1px solid black;
 }
  .panel-footer{
     margin-top: 20%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
     padding-left: 0;
     padding-right: 0;
     border-top: 0px;
@@ -364,7 +438,6 @@ a:focus{
     padding-right: 0;
     padding-left: 0;
     width: 100%;
-
  }
 
  .container{ 
@@ -376,69 +449,12 @@ a:focus{
     font-size: 1.3em;
  }
 
- body h2,h2{
-           text-shadow: 1px 1px 1px purple; 
- }
-
  .page-content{
                padding: 15px;
  }
 
                   /* extral small devices e.g phone */
  @media (min-width: 600px) and (max-width:767px) {
-         body h2,h3{
-                  font-size: 1.5em;
-         }
-
-.text-box1, 
-.image-box1 {
-             height: 580px;
-             overflow: hidden;
-}
-
-.text-box2,
- .image-box2 {
-              height: 900px;
-              overflow: hidden;
- }
-
- #why-section .text-box3,
-#why-section .image-box3 {
-              height: 770px;
-              overflow: hidden;
- }
-
- #story-section .text-box4,
-#story-section .image-box4 {
-              height: 1280px;
-              overflow: hidden;
- }
-
- #skills-section .text-box5,
-#skills-section .image-box5 {
-              height: 790px;
-              overflow: hidden;
- }
-
- #vision-section .text-box6,
-#vision-section .image-box6 {
-              height: 450px;
-              overflow: hidden;
- }
- 
-#message-section .text-box7,
-#message-section .image-box7 {
-              height: 335px;
-              overflow: hidden;
- }
-
- #promise-section .text-box8,
-#promise-section .image-box8 {
-              height: 430px;
-              overflow: hidden;
- }
- body{line-height:normal;}
-
          .panel-footer{
                    padding-top: 1;
                    padding-bottom: 0;
@@ -447,177 +463,149 @@ a:focus{
          .navbar-toggle{margin-right: 15px;}
       }
 
-@media (min-width:400px) and (max-width:599px){
-   .text-box1, 
-.image-box1 {
-             height: 770px;
-             overflow: hidden;
-}
-
-.text-box2,
- .image-box2 {
-              height: 1230px;
-              overflow: hidden;
- }
-
- #why-section .text-box3,
-#why-section .image-box3 {
-              height: 1020px;
-              overflow: hidden;
- }
-
- #story-section .text-box4,
-#story-section .image-box4 {
-              height: 1790px;
-              overflow: hidden;
- }
-
- #skills-section .text-box5,
-#skills-section .image-box5 {
-              height: 890px;
-              overflow: hidden;
- }
-
- #vision-section .text-box6,
-#vision-section .image-box6 {
-              height: 610px;
-              overflow: hidden;
- }
- 
-#message-section .text-box7,
-#message-section .image-box7 {
-              height: 460px;
-              overflow: hidden;
- }
-
- #promise-section .text-box8,
-#promise-section .image-box8 {
-              height: 580px;
-              overflow: hidden;
- }
- body{line-height:normal; font-size: 1.3em;}
- body h2,h2{
-           text-shadow: 1px 1px 1px purple; 
-           font-size: 1.5em;
- }
-
- }
-
- @media(max-width: 399px) {
-   .text-box1, 
-.image-box1 {
-             height: 640px;
-             overflow: hidden;
-}
-
-.text-box2,
- .image-box2 {
-              height: 1100px;
-              overflow: hidden;
- }
-
- #why-section .text-box3,
-#why-section .image-box3 {
-              height: 900px;
-              overflow: hidden;
- }
-
- #story-section .text-box4,
-#story-section .image-box4 {
-              height: 1590px;
-              overflow: hidden;
- }
-
- #skills-section .text-box5,
-#skills-section .image-box5 {
-              height: 790px;
-              overflow: hidden;
- }
-
- #vision-section .text-box6,
-#vision-section .image-box6 {
-              height: 550px;
-              overflow: hidden;
- }
- 
-#message-section .text-box7,
-#message-section .image-box7 {
-              height: 390px;
-              overflow: hidden;
- }
-
- #promise-section .text-box8,
-#promise-section .image-box8 {
-              height: 530px;
-              overflow: hidden;
- }
- body{line-height:normal; font-size: 1.1em;}
- body h2,h3{
-           text-shadow: 1px 1px 1px purple; 
-           font-size: 1.3em;
- }
- }
-
- @media(min-width: 768px) and (max-width:1136px) {
+ @media(min-width: 768px) and (max-width:1023px) {
    .navbar-nav >li>a{
-   padding-right: 42px;
-   padding-left: 22px;
+   padding-right: 35px;
+   padding-left: 10px;
+   padding-bottom: 15px;
+   font-size: 12px;
+}
+#logo-img{
+          width: 55px;
+          height: 40px;
+}
+ }
+
+ @media(min-width:1024px) and (max-width:1133px){
+    .navbar-nav >li>a{
+   padding-right: 40px;
+   padding-left: 25px;
+   padding-bottom: 15px;
+   font-size: 14px;
+}
+#logo-img{
+          width: 55px;
+          height: 40px;
+}
+ }
+
+ @media(min-width:1134px) and (max-width:2559px){
+    .navbar-nav >li>a{
+   padding-right: 15px;
+   padding-left: 80px;
+   font-size: 15px;
    padding-bottom: 15px;
    padding-top: 15px;
 }
 
- body{line-height:normal; font-size: 1.3em;}
- body h2,h3{
-           text-shadow: 1px 1px 1px purple; 
-           font-size: 1.5em;
+
  }
 
-.text-box1, 
-.image-box1 {
-             height: 400px;
-             overflow: hidden;
+ /* ========================================
+   SMALL SCREEN LAYOUT
+   Image first, then text
+   ======================================== */
+
+@media (max-width: 767px) {
+
+    /* Make each section a flex container */
+    #welcome-section .row,
+    #about-section .row,
+    #why-section .row,
+    #story-section .row,
+    #skills-section .row,
+    #vision-section .row,
+    #message-section .row,
+    #promise-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Make image appear before text */
+    #welcome-section .image-box1,
+    #about-section .image-box2,
+    #why-section .image-box3,
+    #story-section .image-box4,
+    #skills-section .image-box5,
+    #vision-section .image-box6,
+    #message-section .image-box7,
+    #promise-section .image-box8 {
+        order: 1;
+    } 
+
+    /* Make text appear after image */
+    #welcome-section .text-box1,
+    #about-section .text-box2,
+    #why-section .text-box3,
+    #story-section .text-box4,
+    #skills-section .text-box5,
+    #vision-section .text-box6,
+    #message-section .text-box7,
+    #promise-section .text-box8 {
+        order: 2;
+    } 
+
+    /* Remove fixed heights on small screens */
+    #welcome-section .text-box1,
+    #welcome-section .image-box1,
+    #about-section .text-box2,
+    #about-section .image-box2,
+    #why-section .text-box3,
+    #why-section .image-box3,
+    #story-section .text-box4,
+    #story-section .image-box4,
+    #skills-section .text-box5,
+    #skills-section .image-box5,
+    #vision-section .text-box6,
+    #vision-section .image-box6,
+    #message-section .text-box7,
+    #message-section .image-box7,
+    #promise-section .text-box8,
+    #promise-section .image-box8 {
+        height: auto;
+        overflow: visible;
+    } 
+
+    /* Make images fit the screen */
+    #welcome-section img,
+    #about-section img,
+    #why-section img,
+    #story-section img,
+    #skills-section img,
+    #vision-section img,
+    #message-section img,
+    #promise-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #Welcome>p{
+             padding-right: 15px;
+             padding-left: 15px;
+    }
+    #About-Me p, h2{
+                     padding-right: 15px;
+                     padding-left: 15px;
+    }
+#Why-Coding>p{
+              padding-right: 15px;
+              padding-left: 15px;
 }
+#My-Story p,h2{
+               padding-right: 15px;
+               padding-left: 15px;
+}
+#Skills>h2{
+                  padding-right: 15px;
+                  padding-left: 0px;
+}
+  #Message>p{
+             padding-left: 15px;
+  }  
 
-.text-box2,
- .image-box2 {
-              height: 600px;
-              overflow: hidden;
- }
-
- #why-section .text-box3,
-#why-section .image-box3 {
-              height: 550px;
-              overflow: hidden;
- }
-
- #story-section .text-box4,
-#story-section .image-box4 {
-              height: 830px;
-              overflow: hidden;
- }
-
- #skills-section .text-box5,
-#skills-section .image-box5 {
-              height: 590px;
-              overflow: hidden;
- }
-
- #vision-section .text-box6,
-#vision-section .image-box6 {
-              height: 310px;
-              overflow: hidden;
- }
- 
-#message-section .text-box7,
-#message-section .image-box7 {
-              height: 250px;
-              overflow: hidden;
- }
-
- #promise-section .text-box8,
-#promise-section .image-box8 {
-              height: 330px;
-              overflow: hidden;
- }
-
- }
+    #body-content{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
